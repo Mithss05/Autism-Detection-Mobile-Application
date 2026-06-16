@@ -1,0 +1,14 @@
+# Ignore ML datasets and binary files for language stats
+
+Dataset/* linguist-vendored
+model_training/* linguist-vendored
+assets/models/* linguist-vendored
+*.onnx linguist-vendored
+*.h5 linguist-vendored
+*.pb linguist-vendored
+
+# Set primary languages
+
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.py linguist-language=Python
